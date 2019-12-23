@@ -1,0 +1,62 @@
+.subscription{
+  background: #dcf3f4;
+  &__wrapper{
+    padding: 70px 0;
+    max-width: 370px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title{
+    font-weight: bolder;
+    font-size: 44px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  &__desc{
+    color: rgba(176, 176, 176, 255);
+    margin-bottom: 55px;
+    text-align: center;
+  }
+  &__form{
+    position: relative;
+    height: 60px;
+
+  }
+  &__email{
+    width: 100%;
+    background: white;
+    border-radius: 70px!important;
+    border: transparent;
+    padding: 15px 60px 15px 30px;
+    color: rgba(176, 176, 176, 255);
+    outline: none;
+    height: 100%;
+  }
+  &__btn{
+    background:#50c2c9 ;
+    border: transparent;
+    outline: transparent;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    &:hover  .subscription__img{
+      animation: more_arrow 0.3s linear;
+
+    }
+  }
+  &__img{
+    align-self: center;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+
+  }
+}

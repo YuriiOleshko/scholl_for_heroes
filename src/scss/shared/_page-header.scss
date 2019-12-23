@@ -1,0 +1,23 @@
+.page-header{
+  &__help-first{
+    padding: 15px 40px 14px  34px;
+    color: #50c2c9;
+    font-weight: bold;
+    border:1px solid #50c2c9;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  &__help-second{
+    padding: 15px 40px 14px  34px;
+    color: #ffffff;
+    font-weight: bold;
+    border:1px solid #50c2c9;
+    background:#50c2c9 ;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  &__nav{
+    display: flex;
+  }
+
+}
